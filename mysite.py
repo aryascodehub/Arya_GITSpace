@@ -19,3 +19,8 @@ def getRepos():
     response = requests.get('https://api.github.com/search/repositories?q=github+api')
 
     return response.content
+
+
+@app.route("/test")
+def getTest():
+    return "this is a test"
