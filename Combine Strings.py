@@ -9,3 +9,6 @@ else:
     print("...and the answer is...." + intro[0:2] + intro[-2:len(intro)])  # negative indexing and slicing is used in
     # this
     print("Thank you for using my program!")
+
+expression="restart"
+newExpression=expression.replace('r','$')
